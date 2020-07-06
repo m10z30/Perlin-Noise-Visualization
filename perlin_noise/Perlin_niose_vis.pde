@@ -40,6 +40,11 @@ void draw(){
       v.setMag(0.6);
       flowfield[index] = v;
       xoff += inc;
+      
+      
+      
+      ///////////////////////////////////////
+      //for showing the vectors and debugging
       //stroke(0, 100);
       //push();
       //translate(x * scl , y * scl);
@@ -51,7 +56,9 @@ void draw(){
       //pop();
       //fill(r);
       //rect(x * scl, y * scl, scl, scl);
-      
+      /////////////////////////////////////////
+    
+    
     }
   yoff += inc;
   }
